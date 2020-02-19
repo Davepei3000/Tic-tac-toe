@@ -70,6 +70,9 @@ def play():
         test_board = [0,1,2,3,4,5,6,7,8,9]
         show_board(test_board)
         func()
+        
+    if choice == 'No' or 'no':
+        pass
     
         
 def play_again():
@@ -81,7 +84,7 @@ def play_again():
         show_board(test_board)
         func()
         
-    if choice == 'No':
+    if choice == 'No' or 'no':
         pass
     
 def func():
